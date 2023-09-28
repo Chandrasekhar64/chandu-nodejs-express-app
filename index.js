@@ -3,6 +3,9 @@ const express = require('express');
 const app = express();
 app.use(express.static("public"));
 const admin = require('firebase-admin');
+const bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({ extended: true })); 
+app.use(bodyParser.json());
 var serviceAccount = require("./Accountservicekey.json")
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
@@ -14,21 +17,22 @@ app.use(express.static('views'));
 const db = admin.firestore();
 
 
-//signup
-//login
-//once login is complete,they can see the list of courses
 app.get('/',function (req,res) {
-  res.render( __dirname + "/views/" + "signup.ejs" );
+  res.render( __dirname + "/views/" + "home" );
+});
+
+app.get('/signup',function (req,res) {
+  res.render( __dirname + "/views/" + "signup" );
 });
 
 
 
-app.get('/signupsubmit',function (req, res) {
+app.post('/signupsubmit',function (req, res) {
   db.collection("users")
     .add({
-      name: req.query.name,
-      email: req.query.email,
-      password: req.query.password,
+      name: req.body.name,
+      email: req.body.email,
+      password: req.body.password,
     
     })
     .then(() => {
@@ -36,14 +40,14 @@ app.get('/signupsubmit',function (req, res) {
     });
 });
 
-app.get('/login',function (req,res) {
+app.post('/login',function (req,res) {
   res.render( __dirname + "/views/" + "signup.ejs" );
 });
 
-app.get('/loginsubmit',function (req, res) {
+app.post('/loginsubmit',function (req, res) {
   db.collection("users")
-  .where("email", "==" ,req.query.email)
-  .where("password", "==" ,req.query.password)
+  .where("email", "==" ,req.body.email)
+  .where("password", "==" ,req.body.password)
   .get()
   .then((docs) =>{
     if(docs.size>0){
@@ -54,8 +58,8 @@ app.get('/loginsubmit',function (req, res) {
     console.log(docs.size)
   });
 });
-app.get('/timesubmit',(req,res) =>{
-  const title = req.query.title;
+app.post('/timesubmit',(req,res) =>{
+  const title = req.body.title;
 
   request.get({
     url: 'https://api.api-ninjas.com/v1/worldtime?city=' + title,

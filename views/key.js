@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "weather-web-application-a9942",
+    "private_key_id": "03b5bc2b236863617cbdc7d0d02b2f29d827fa43",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCPNjqiPaIFdcM3\n1b67NEjnNgHMmSxOEpWyHZH8sh39Cn399QOcQWdxHJPG0g7cdqK/HlRxJD8iZ3gg\npvbHfX/GrvkqNXe+Uc+KNNpTjKxx0qmqjoUeSBExNYLsu6xcc3eZaiY+UlSN6uwL\nWxH/RmeGWsO4qiVqkZu0vsjmG3mzZrMsFLHP9nXyYt7L5z8uzANGhEpxwCIEqeG2\nHOY6lxPmGCOuTMTJ6eI+FJL7al7nWCs6yBVSRJQk7XFy+5hm8rCl9gNRua9PKUsL\nPWYWHCrxo4VQNi56oJo5LtlGQ3UWgDUCbq5AtF7zFq5f8+roZFhhwnmsvNs3jGtE\nd9PvvFN3AgMBAAECggEALIRa7ZvjBXd5251h0KeMEfND0+m5T/uO9PMkMjzb/ZCJ\nYawMF0JteUe82Azr+bQXGvm+nfz6cyNewCemhpSIZ6Z0ZZ6BPnQH45pSU65i3G7z\ntsTetG8KiRVtQVGFXqe2AcZxZOYKyqLABTel/IhSHf2Q4ZJiVyI0GJdFs+HOjuli\ntg/RfEuaSs5BNwd+JAY5uHUd4Txw88qpii8kc2u7kPawdXNVUugIIEc12bJwupLX\nE+Uik1KkRlanlHqJdkF/WMZV4Fq11ib3Kt94nmoVjREB7KrM6JnexX2H9Wkyklif\naqYLdYguoC3kYX1nGjp+mzUrDMPL4QBe7a5ri1KvgQKBgQDAjdb1XtoHdo4lwapN\n3F21noINhKdt6vYZEV5s8OwU+leo9AqZB7RbVmja7W1tJEtjEBQDXw7s27DzkIID\nf1yuLNIuKXGROzz6D2lNh+rKYB9rvw1hPFsCtwpJK5Q4yL/49XEEzMwrVj3MYVMJ\nE30m6lX8LZBsLJKEJi39FGu1EQKBgQC+ZlCKehhG/tCZzyru3XWewBmusluULd0I\n3yS65tgyYjLDqRIISyoUJVq3FpRprn8294foBfFy5cZx+5SzThbrX3vQP3JQB8yV\nHrrEykajyJMKkSZ4QKZPSRaSLauRAY8nWccMLb3TgFckQHQJzAlQDnkg7zqZtTiI\nsdmIHqRgBwKBgQCVpWZbGdVOmYfNth5aFppJjR+7y82nckTCpKoC9pYzk3/PEaKu\n3bsAhT5GbuFtQhjIq3UyTY027WIvWK6Cc1gfETxjndfiK+yu1o1bMPd7QosI3NlU\nKWj9yi1XQmQWYYY4wN+OAG/oekTa8wRqeFf6h4I901d7ioRv6ZAyMM2oUQKBgQCg\nUCuufSEl3fWsHAgNOYCImzzEoD6FpJxAlQorKKWOvqn5nsilHQygC9e24xcxaJCK\nqp7PGPn0gU22uVq6Ip0fr7TjYhiRFBAI2uftPFeAHijYs+CNTfn6NhMAH94eaQ6s\n1mXHdlgn1h8JUg+iFB8fPiB1P5i6xSCF0CHV/97tTwKBgQCX02ni/CKYkWfCp1SM\nJhRyp04nHW5gg3kkS9Re4z145ORAV7FbXvAnKd8f/i0WrskTUNlg8Mag9InejUgn\nSuZo8tI4Gtdwb5mpAOkcKOgmkKAkT9rykvlnJNymr57D5wr/1W+dpe5Ni5rhlUgI\nkOb9CcaCxgSkx3NQlN5qi/k8Yg==\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-095d2@weather-web-application-a9942.iam.gserviceaccount.com",
+    "client_id": "107854838155344185441",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-095d2%40weather-web-application-a9942.iam.gserviceaccount.com"
+  }
